@@ -16,11 +16,10 @@ class PimrtButton extends StatelessWidget {
         foregroundColor: Colors.white,
         textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
       ),
-
       onPressed: () {
         // Define button action here
       },
-      child: const Text('Pimrt Button '),
+      child: const Text('Pimrt Button bbbfjdbfm smms  fjj'),
     );
   }
 }
