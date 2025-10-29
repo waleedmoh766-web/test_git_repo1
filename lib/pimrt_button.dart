@@ -7,6 +7,10 @@ class PimrtButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
+        minimumSize: const Size(150, 50),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12.0),
+        ),
         padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
         backgroundColor: Theme.of(context).colorScheme.primary,
         foregroundColor: Colors.white,
@@ -15,7 +19,7 @@ class PimrtButton extends StatelessWidget {
       onPressed: () {
         // Define button action here
       },
-      child: const Text('Pimrt Button'),
+      child: const Text('Pimrt Button bbbfjdbfm smms  fjj'),
     );
   }
 }
